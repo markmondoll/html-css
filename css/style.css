@@ -76,6 +76,7 @@ p {
   animation-delay: 2s;
 }
 #hero h1:nth-child(3) {
+	animation: text_reveal_name .5s ease forwards;
   animation-delay: 3s;
 }
 #hero h1 span {
@@ -350,6 +351,12 @@ p {
   100% {
     color: white;
   }
+}
+@keyframes text_reveal_name{
+	100%{
+		color: crimson;
+		font-weight: 500px;
+	}
 }
 /* End of Keyframes */
 
